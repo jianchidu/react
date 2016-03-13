@@ -1,0 +1,19 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchify -t [ babelify --presets [ react ] ] ./src/main.js -o ./dist/bundle.js -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jianchidu/react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jianchidu/react/issues"
+  },
+  "homepage": "https://github.com/jianchidu/react#readme"
+}
